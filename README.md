@@ -15,9 +15,14 @@ doi = {https://doi.org/10.1016/j.compbiomed.2020.104075},
 url = {https://www.sciencedirect.com/science/article/pii/S0010482520304066},
 author = {Shyam Lal and Devikalyan Das and Kumar Alabhya and Anirudh Kanfade and Aman Kumar and Jyoti Kini},
 keywords = {Deep neural network, Histopathology image, Nuclei segmentation, Nuclei detection},
-
 }
 ```
+## Goal
+To perform nuclei segmentation of the Liver cancer Histopathology Images using deep learning architecture.
+
+## Requirements
+All the scripts ran using Tensorflow v2.2 in Google Colab Notebook. So, Tensorflow needs to be installed before running the scripts, together with opencv for data-preprocessing..
+```pip install requirements.txt```
 
 
 
