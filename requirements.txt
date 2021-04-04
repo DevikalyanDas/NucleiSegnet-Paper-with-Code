@@ -1,0 +1,12 @@
+tensorflow
+spams
+opencv-python==4.1.2
+pandas
+matplotlib
+statistics
+numpy
+tqdm
+warn
+scikit-learn
+scikit-image==0.16.2
+pathlib==1.0.1
