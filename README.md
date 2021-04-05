@@ -69,9 +69,9 @@ Folder Template/
 
 ## Segmented Masks
 
-| ID's    | Ground Truth  |    NucleiSegnet | 
-| ----------- | ----------- | ----------- |
-|    |    |    |
+| ID's    | Image  |    Ground Truth | Segmented Mask   |    Overlaid | 
+| ----------- | ----------- | ----------- | ----------- | ----------- |
+|    |    |    |   |
 
 
 
