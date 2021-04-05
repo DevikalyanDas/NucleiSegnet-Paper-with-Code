@@ -21,8 +21,8 @@ keywords = {Deep neural network, Histopathology image, Nuclei segmentation, Nucl
 To perform nuclei segmentation of the Liver cancer Histopathology Images using deep learning architecture.
 
 ## Requirements
-All the scripts ran using Tensorflow v2.2 in Google Colab Notebook. So, Tensorflow needs to be installed before running the scripts, together with opencv for data-preprocessing..
-```pip install requirements.txt```
+All the scripts ran using Tensorflow v2.2 in Google Colab Notebook. So all the required dependencies can be installed using
+```pip install -r requirements.txt```
 
 ## Usage
 * It is necessary to run the ```pip install spams``` as the stain normalization requires this package.Then you can run the other scripts
@@ -30,6 +30,12 @@ All the scripts ran using Tensorflow v2.2 in Google Colab Notebook. So, Tensorfl
 * Then run the ```python main.py``` which will start the training process. It requires path to the saved color normalized patches and various other parametrs. You can change all at the top of the scripts
 * For the test, run the ```python test.py``` which will carry out the inference on the test set. But remeber to give the path to your saved weights, model and test image patches.
 * All the scripts, are run together in Google colab, to show how to run the scripts.
+
+## Segmented Masks
+
+| ID's    | Ground Truth  |    NucleiSegnet | 
+| ----------- | ----------- | ----------- |
+|    |    |    |
 
 
 
