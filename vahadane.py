@@ -84,7 +84,7 @@ class vahadane(object):
             W = np.mean(W, axis=0)
             V0, V = self.getV(img)
             H = self.getH(V0, W)
-        print('stain separation time:', time.time()-start, 's')
+        #print('stain separation time:', time.time()-start, 's')
         return W, H
 
 
