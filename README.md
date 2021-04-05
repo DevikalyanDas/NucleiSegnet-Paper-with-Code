@@ -31,18 +31,21 @@ All the scripts ran using Tensorflow v2.2 in Google Colab Notebook. So all the r
 * For the test, run the ```python test.py``` which will carry out the inference on the test set. But remeber to give the path to your saved weights, model and test image patches.
 * All the scripts, are run together in Google colab, to show how to run the scripts.
 
-## Script Dependencies
+## Script Dependencies (code summary)
 ```
 code-template/
 │
-├── color_norm.py       - script to stain normalize the images and crop into patches.
-├── main.py             - Script to run the dataset generator and start training 
-│   ├── dataset.py
-│   ├── model.py
+├── color_norm.py           - script to stain normalize the images and crop into patches.
+├── main.py                 - Script to run the dataset generator and start training 
+│   ├── dataset.py          - dataset class and the augmentations used
+│   ├── model.py            - script of the model
 │       ├── loss_metric.py  - The metrics and loss functions for the model
 │   
-├── test.py          - the script for 
-
+├── test.py                 - the script to test the model 
+│   ├── dataset.py          - dataset class and the augmentations used
+│   ├── model.py            - script of the model
+│   ├── scores_comp.py      - computes the scores (DICE, IOU)
+│   ├── color_norm.py       - joins the cropped patches back into full sized image
 ```
 
 ## Folder Structure while running the code
