@@ -75,7 +75,7 @@ Folder Template/
 NucleiSegnet model weight can be downloaded from [here](https://drive.google.com/file/d/1-6Y_cnkerKEtaLHb8L1VnPQkM8GarTiV/view?usp=sharing)
 
 ## Segmented Masks
-Here are some of the result from the [MultiOrgan Dataset](https://nucleisegmentationbenchmark.weebly.com/dataset.html)
+Here are some of the result of NucleiSegnet from the [MultiOrgan Dataset](https://nucleisegmentationbenchmark.weebly.com/dataset.html)
 
 | Organ    | Image  |    Ground Truth | Segmented Mask   |    Overlaid | 
 | ----------- | ----------- | ----------- | ----------- | ----------- |
