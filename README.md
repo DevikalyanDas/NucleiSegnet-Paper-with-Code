@@ -73,14 +73,14 @@ Folder Template/
 ```
 
 ## Segmented Masks
-Here are some of the result from the [MultiOrgan Dataset]
+Here are some of the result from the [MultiOrgan Dataset](https://nucleisegmentationbenchmark.weebly.com/dataset.html)
 
 | Organ    | Image  |    Ground Truth | Segmented Mask   |    Overlaid | 
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 |   Liver |  <img src="sample_images/TCGA-21-5784-01Z-00-DX1.jpg" width="200" height="200">  |                                                       <img src="sample_images/TCGA-21-5784-01Z-00-DX1.png" width="200" height="200"> |                                                    <img src="sample_images/TCGA-21-5784-01Z-00-DX1_seg.png" width="200" height="200">    |                                                       <img src="sample_images/TCGA-21-5784-01Z-00-DX1_over.png" width="200" height="200"> |
-|   Liver |  <img src="sample_images/TCGA-21-5784-01Z-00-DX1.jpg" width="200" height="200">  |                                                       <img src="sample_images/TCGA-21-5784-01Z-00-DX1.png" width="200" height="200"> |                                                    <img src="sample_images/TCGA-21-5784-01Z-00-DX1_seg.png" width="200" height="200">    |                                                       <img src="sample_images/TCGA-21-5784-01Z-00-DX1_over.png" width="200" height="200"> |
-|   Liver |  <img src="sample_images/TCGA-21-5784-01Z-00-DX1.jpg" width="200" height="200">  |                                                       <img src="sample_images/TCGA-21-5784-01Z-00-DX1.png" width="200" height="200"> |                                                    <img src="sample_images/TCGA-21-5784-01Z-00-DX1_seg.png" width="200" height="200">    |                                                       <img src="sample_images/TCGA-21-5784-01Z-00-DX1_over.png" width="200" height="200"> |
-|   Liver |  <img src="sample_images/TCGA-21-5784-01Z-00-DX1.jpg" width="200" height="200">  |                                                       <img src="sample_images/TCGA-21-5784-01Z-00-DX1.png" width="200" height="200"> |                                                    <img src="sample_images/TCGA-21-5784-01Z-00-DX1_seg.png" width="200" height="200">    |                                                       <img src="sample_images/TCGA-21-5784-01Z-00-DX1_over.png" width="200" height="200"> |
+|   Kidney |  <img src="sample_images/TCGA-B0-5710-01Z-00-DX1.jpg" width="200" height="200">  |                                                       <img src="sample_images/TCGA-B0-5710-01Z-00-DX1.png" width="200" height="200"> |                                                    <img src="sample_images/TCGA-B0-5710-01Z-00-DX1_seg.png" width="200" height="200">    |                                                       <img src="sample_images/TCGA-B0-5710-01Z-00-DX1_over.png" width="200" height="200"> |
+|   Bladder |  <img src="sample_images/TCGA-G2-A2EK-01A-02-TSB.jpg" width="200" height="200">  |                                                       <img src="sample_images/TCGA-G2-A2EK-01A-02-TSB.png" width="200" height="200"> |                                                    <img src="sample_images/TCGA-G2-A2EK-01A-02-TSB_seg.png" width="200" height="200">    |                                                       <img src="sample_images/TCGA-G2-A2EK-01A-02-TSB_over.png" width="200" height="200"> |
+
 
 
 
