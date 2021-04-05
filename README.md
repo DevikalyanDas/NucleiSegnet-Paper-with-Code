@@ -31,6 +31,54 @@ All the scripts ran using Tensorflow v2.2 in Google Colab Notebook. So all the r
 * For the test, run the ```python test.py``` which will carry out the inference on the test set. But remeber to give the path to your saved weights, model and test image patches.
 * All the scripts, are run together in Google colab, to show how to run the scripts.
 
+## Code Structure
+```
+code-template/
+│
+├── color_norm.py       - script to start training
+├── inference.py        - inference using a trained model
+├── trainer.py          - the main trained
+├── config.json         - holds configuration for training
+│
+├── base/               - abstract base classes
+│   ├── base_data_loader.py
+│   ├── base_model.py
+│   ├── base_dataset.py  - All the data augmentations are implemented here
+│   └── base_trainer.py
+│
+├── dataloader/ - loading the data for different segmentation datasets
+│
+├── models/ - contains semantic segmentation models
+│
+├── saved/
+│   ├── runs/ - trained models are saved here
+│   └── log/ - default logdir for tensorboard and logging output
+│  
+└── utils/ - small utility functions
+    ├── losses.py - losses used in training the model
+    ├── metrics.py - evaluation metrics used
+    └── lr_scheduler - learning rate schedulers 
+```
+
+## Folder Structure
+The code is built using this folder template
+```
+Folder Template/
+│
+└── TrainData/     - Training data folder containing the stain normalized patches for training
+    ├── Bin        - Binary Labels
+    ├── tis        - Training images
+└── ValidData/     
+    ├── Bin  
+    ├── tis 
+└── TestData/      
+    ├── Bin  
+    ├── tis 
+├── checkpoint     - For saving the weight
+├── history        - For saving the loss and metrice score
+├── results        - For saving the segmented mask
+```
+
 ## Segmented Masks
 
 | ID's    | Ground Truth  |    NucleiSegnet | 
