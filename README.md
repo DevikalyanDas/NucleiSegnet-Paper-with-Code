@@ -46,6 +46,8 @@ code-template/
 │   ├── model.py            - script of the model
 │   ├── scores_comp.py      - computes the scores (DICE, IOU)
 │   ├── color_norm.py       - joins the cropped patches back into full sized image
+│ 
+├── overlay_mask.py         - the script to overlay the segmented output on the test image
 ```
 
 ## Folder Structure while running the code
