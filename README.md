@@ -29,6 +29,7 @@ All the scripts ran using Tensorflow v2.2 in Google Colab Notebook. So all the r
 * Perform the stain normalization and cropping into patches of 16 (Multi-organ dataset has image size of 1000 x 1000). This will be done by running ``` python color_norm.py```. You can give here the image sizes and path to folders (train,test,valid) and also path where the cropped normalized patches can be saved.
 * Then run the ```python main.py``` which will start the training process. It requires path to the saved color normalized patches and various other parametrs. You can change all at the top of the scripts
 * For the test, run the ```python test.py``` which will carry out the inference on the test set. But remeber to give the path to your saved weights, model and test image patches.
+* For overlaying the mask on the test image, run ```python overlay_mask.py``` . Remember to give the correct path at the start of the script 
 * All the scripts, are run together in Google colab, to show how to run the scripts.
 
 ## Script Dependencies (code summary)
@@ -67,13 +68,16 @@ Folder Template/
 ├── checkpoint     - For saving the weight
 ├── history        - For saving the loss and metrice score
 ├── results        - For saving the segmented mask
+├── results        - For saving the segmented mask
+├── overlay        - For saving the overlaid final result
 ```
 
 ## Segmented Masks
+Here are some of the result from the [MultiOrgan Dataset]
 
-| ID's    | Image  |    Ground Truth | Segmented Mask   |    Overlaid | 
+| Organ    | Image  |    Ground Truth | Segmented Mask   |    Overlaid | 
 | ----------- | ----------- | ----------- | ----------- | ----------- |
-|    |    |    |   |
+|   Liver |  <img src="sample_images/TCGA-21-5784-01Z-00-DX1.tif" width="200" height="200">  |                                                       <img src="sample_images/TCGA-21-5784-01Z-00-DX1.png" width="200" height="200"> |                                                    <img src="sample_images/TCGA-21-5784-01Z-00-DX1_seg.png" width="200" height="200">    |                                                       <img src="sample_images/TCGA-21-5784-01Z-00-DX1_over.png" width="200" height="200"> |
 
 
 
