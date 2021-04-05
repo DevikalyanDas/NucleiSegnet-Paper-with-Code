@@ -31,7 +31,7 @@ All the scripts ran using Tensorflow v2.2 in Google Colab Notebook. So, Tensorfl
 * For the test, run the ```python test.py``` which will carry out the inference on the test set. But remeber to give the path to your saved weights, model and test image patches.
 * All the scripts, are run together in Google colab, to show how to run the scripts.
 
-albumentations==0.1.12
+
 
 
 
