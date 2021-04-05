@@ -9,7 +9,7 @@ from tensorflow.keras.backend import *
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.losses import binary_crossentropy
 from tensorflow.keras.callbacks import *
-from loss_metric import loss,f1_score1
+from loss_metric import loss,f1_score1,bce_dice_loss
 
 def create_model():
 
